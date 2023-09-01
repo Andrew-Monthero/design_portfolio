@@ -1,12 +1,17 @@
+import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
 import Navbar from '@/components/Navbar';
+import ProjectSection from '@/components/ProjectSection';
 
-export default function Home() {
+export default async function Home() {
   return (
-    // Hero section
-    <div className='h-screen bg-fixed bg-center bg-cover custom-img'>
+    <div>
       <Navbar />
-      <Hero />
+      <div>
+        <Hero />
+        <ProjectSection />
+      </div>
+      <Footer />
     </div>
   );
 }

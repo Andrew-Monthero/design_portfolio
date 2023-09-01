@@ -1,12 +1,9 @@
-import './globals.css';
 import type { Metadata } from 'next';
-import { Jost } from 'next/font/google';
-
-const jost = Jost({ subsets: ['latin'] });
+import '../globals.css';
 
 export const metadata: Metadata = {
   title: 'Andrew-Portfolio',
-  description: 'Portfolio website of Andrew Monthero',
+  description: 'Portfolio website of Andrew Monthero - Product designer',
 };
 
 export default function RootLayout({
@@ -16,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className={jost.className}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
