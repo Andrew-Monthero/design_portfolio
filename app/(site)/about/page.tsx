@@ -1,19 +1,16 @@
 import Image from 'next/image';
 import Profile from '../../../public/assets/Andrew.jpeg';
 import Experience from '@/components/Experience';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
 
 export default function AboutMe() {
   return (
     <div>
-      <Navbar />
-      <div className='m-[1rem] md:max-w-screen-lg md:mx-auto grid md:grid-cols-2 grid-cols-1 lg:max-h-full md:gap-[4.8rem] gap-[2.4rem] items-center'>
+      <div className='mx-[1rem] mt-[8rem] md:mt-[10rem]  md:max-w-screen-lg md:mx-auto grid md:grid-cols-2 grid-cols-1 lg:max-h-full md:gap-[4.8rem] gap-[2.4rem] items-center'>
         <div>
-          <h1 className='text-4xl leading-normal tracking-normals lg:text-5xl lg:leading-snug'>
+          <h1 className='text-4xl leading-normal tracking-normals lg:text-5xl lg:leading-snug font-semibold text-purple-500'>
             I am Andrew Monthero, a passionate UI/UX designer based in Mumbai.
           </h1>
-          <p className='pt-[2.4rem] whitespace-break-spaces leading-relaxed'>
+          <p className='mt-[1rem] font-light leading-relaxed tracking-wide text-[1.125rem]'>
             I believe in creating delightful user experiences that not only look
             amazing but also function flawlessly. Design is my playground, and
             code is my secret sauce to bring those designs to life! I&apos;m
@@ -33,22 +30,23 @@ export default function AboutMe() {
           className='md:max-h-fit grayscale'
         />
       </div>
-      <div className='mx-[1rem] md:max-w-screen-lg md:mx-auto'>
-        <h2 className='mt-24 font-bold text-3xl '>Experience</h2>
-        <div className='grid md:grid-cols-3 grid-cols-1 gap-4 md:max-h-screen'>
+      <div className='mx-[1rem]  md:max-w-screen-lg md:mx-auto'>
+        <h2 className='mt-24 pb-[1.5rem] text-[2rem] md:text-[3rem] leading-snug tracking-normal  font-medium  text-purple-500'>
+          Experience
+        </h2>
+        <div className='grid md:grid-cols-2 grid-cols-1 gap-4 md:max-h-screen'>
           <Experience
-            designation='UI/UX Design Intern'
+            designation='UI/UX Design (Intern)'
             duration='Nov 2021 - May 2022'
             company='Thinkarz Technologies Pvt. Ltd.'
           />
           <Experience
-            designation='UI/UX Design-Full Time'
+            designation='UI/UX Design (Full Time)'
             duration='August 2022 - Present'
             company='Terado Engineering Pvt. Ltd.'
           />
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

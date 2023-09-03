@@ -1,17 +1,15 @@
-import Footer from '@/components/Footer';
+import Contact from '@/components/Contact';
 import Hero from '@/components/Hero';
-import Navbar from '@/components/Navbar';
 import ProjectSection from '@/components/ProjectSection';
 
 export default async function Home() {
   return (
     <div>
-      <Navbar />
       <div>
         <Hero />
         <ProjectSection />
+        <Contact />
       </div>
-      <Footer />
     </div>
   );
 }

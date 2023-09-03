@@ -1,19 +1,19 @@
 const Experience = (props: any) => {
   return (
-    <div className='mt-5'>
-      <div className='bg-gray-100 w-full rounded-3xl p-[0.8rem]'>
-        <div className='bg-indigo-100 rounded-t-2xl h-[16rem] p-[1.6rem]'>
-          <p className='text-[1.2rem] text-gray-600 pb-[1.6rem]'>
-            {props.duration}
-          </p>
-          <h2 className='text-[2.4rem] font-medium text-black'>
+    <div>
+      <div className=' w-full  '>
+        <div className='bg-gradient-to-br from-indigo-950 to-slate-950 rounded-2xl  p-[1.6rem] border-2 border-gray-500'>
+          <h2 className='text-[1.25rem] font-normal text-gray-200 pb-[1rem]'>
             {props.designation}
           </h2>
-        </div>
-        <div>
-          <h3 className='text-[1.2rem] font-medium p-[0.8rem] text-black'>
+
+          <h3 className='text-[2rem] font-medium text-purple-400'>
             {props.company}
           </h3>
+
+          <p className='text-[1rem] text-gray-400 pt-[1rem]'>
+            {props.duration}
+          </p>
         </div>
       </div>
     </div>

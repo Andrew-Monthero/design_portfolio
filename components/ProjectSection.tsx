@@ -8,13 +8,16 @@ export default async function ProjectSection() {
 
   return (
     //Projects
-    <div className='h-screen bg-fixed bg-center bg-cover custom-img'>
+    <div className='h-full flex justify-center flex-col mx-[1rem] my-[10rem] md:max-w-screen-lg md:mx-auto'>
+      <h2 className='text-[2rem] md:text-[3rem] leading-snug tracking-normal  font-medium  text-purple-500'>
+        Projects
+      </h2>
       <div className='mt-[2.4rem] lg:grid-cols-3 md:grid-cols-2 grid-cols-1 grid gap-8'>
         {projects.map((project: Project) => (
           <Link
             href={`/projects/${project.slug}`}
             key={project._id}
-            className='bg-blue-100 w-full rounded-3xl p-[1.2rem] hover:scale-105 hover:bg-blue-300 transition flex flex-col justify-between'
+            className='w-full  hover:scale-105 hover:bg-blue-300 transition flex flex-col justify-between bg-gradient-to-br from-indigo-950 to-slate-950 rounded-2xl border-2 border-gray-500 overflow-hidden'
           >
             {project.image && (
               <Image
@@ -22,10 +25,10 @@ export default async function ProjectSection() {
                 alt={project.alt}
                 width={600}
                 height={0}
-                className='object-cover rounded-lg '
+                className='object-cover'
               />
             )}
-            <div className='text-[1.2rem] font-medium pt-[0.8rem] '>
+            <div className='text-[1.2rem] font-medium p-[1.5rem] '>
               {project.name}
             </div>
           </Link>
