@@ -8,11 +8,11 @@ export default async function ProjectSection() {
 
   return (
     //Projects
-    <div className='h-full flex justify-center flex-col mx-[1rem] my-[10rem] md:max-w-screen-lg md:mx-auto'>
+    <div className='h-full flex justify-center flex-col mx-[1rem] my-[3rem] md:max-w-screen-lg md:mx-auto'>
       <h2 className='text-[2rem] md:text-[3rem] leading-snug tracking-normal  font-medium  text-purple-500'>
         Projects
       </h2>
-      <div className='mt-[2.4rem] lg:grid-cols-3 md:grid-cols-2 grid-cols-1 grid gap-8'>
+      <div className='mt-[2.4rem] md:grid-cols-2 grid-cols-1 grid gap-8'>
         {projects.map((project: Project) => (
           <Link
             href={`/projects/${project.slug}`}

@@ -2,6 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer sm {
+  h1 {
+    @apply text-[5rem] leading-snug font-semibold;
+  }
+
+  h2 {
+    @apply text-[3rem] leading-snug my-[1.5rem] font-semibold;
+  }
+
+  h3 {
+    @apply text-[2rem] leading-snug font-normal;
+  }
+
+  p {
+    @apply text-[1rem] leading-normal font-normal;
+  }
+}
+
+
+@layer base {
+  h1 {
+    @apply text-[2.5rem] leading-snug;
+  }
+
+  h2 {
+    @apply text-[2rem] leading-snug my-[1.5rem] font-semibold;
+  }
+
+  h3 {
+    @apply text-[1.5rem] leading-snug font-normal;
+  }
+
+  p {
+    @apply text-[1rem] leading-normal font-normal;
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
