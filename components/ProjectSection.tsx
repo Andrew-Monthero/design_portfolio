@@ -29,7 +29,7 @@ export default async function ProjectSection() {
           </div>
         </Link>
         <Link
-          href='https://medium.com/@andrewmonthero/creative-cooks-ui-ux-case-study-5fb14d3332a1'
+          href='https://medium.com/@andrewmonthero/buildnest-a-real-estate-management-tool-227452ee0bf6'
           className='w-full  hover:scale-105 hover:bg-blue-300 transition flex flex-col justify-between bg-gradient-to-br from-indigo-950 to-slate-950 rounded-2xl border-2 border-gray-500 overflow-hidden'
         >
           <Image
