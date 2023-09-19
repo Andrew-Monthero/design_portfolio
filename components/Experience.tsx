@@ -3,13 +3,13 @@ const Experience = (props: any) => {
     <div>
       <div className=' w-full '>
         <div className='bg-gradient-to-br from-indigo-950 to-slate-950 rounded-2xl  p-[1.6rem] border-2 border-gray-500'>
-          <h2 className='text-[1.25rem] font-normal text-gray-200 pb-[1rem]'>
+          <p className='text-[1.25rem] font-normal text-gray-200 pb-[1rem]'>
             {props.designation}
-          </h2>
+          </p>
 
-          <h3 className='text-[2rem] font-medium text-white'>
+          <p className='text-[2rem] font-medium text-white max-w-[350px]'>
             {props.company}
-          </h3>
+          </p>
 
           <p className='text-[1rem] text-gray-400 pt-[1rem]'>
             {props.duration}
