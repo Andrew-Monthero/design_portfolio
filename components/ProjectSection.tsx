@@ -1,10 +1,10 @@
-import { getProjects } from '@/sanity/sanity-utils';
-import { Project } from '@/types/Project';
+// import { getProjects } from '@/sanity/sanity-utils';
+// import { Project } from '@/types/Project';
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default async function ProjectSection() {
-  const projects = await getProjects();
+export default async function ProjectSection({ name }: String) {
+  // const projects = await getProjects();
 
   return (
     //Projects
@@ -13,7 +13,35 @@ export default async function ProjectSection() {
         Projects
       </h2>
       <div className='mt-[2.4rem] md:grid-cols-2 grid-cols-1 grid gap-8'>
-        {projects.map((project: Project) => (
+        <Link
+          href='https://medium.com/@andrewmonthero/creative-cooks-ui-ux-case-study-5fb14d3332a1'
+          className='w-full  hover:scale-105 hover:bg-blue-300 transition flex flex-col justify-between bg-gradient-to-br from-indigo-950 to-slate-950 rounded-2xl border-2 border-gray-500 overflow-hidden'
+        >
+          <Image
+            src='https://miro.medium.com/v2/resize:fit:1400/format:webp/1*JowOHcWr9tk3oY9lCTKnEw.png'
+            alt='Banner_image'
+            width={600}
+            height={0}
+            className='object-cover'
+          />
+          <div className='text-[1.2rem] font-medium p-[1.5rem] '>
+            Creative Cooks
+          </div>
+        </Link>
+        <Link
+          href='https://medium.com/@andrewmonthero/creative-cooks-ui-ux-case-study-5fb14d3332a1'
+          className='w-full  hover:scale-105 hover:bg-blue-300 transition flex flex-col justify-between bg-gradient-to-br from-indigo-950 to-slate-950 rounded-2xl border-2 border-gray-500 overflow-hidden'
+        >
+          <Image
+            src='https://miro.medium.com/v2/resize:fit:1400/format:webp/1*JowOHcWr9tk3oY9lCTKnEw.png'
+            alt='Banner_image'
+            width={600}
+            height={0}
+            className='object-cover'
+          />
+          <div className='text-[1.2rem] font-medium p-[1.5rem] '>BuildNest</div>
+        </Link>
+        {/* {projects.map((project: Project) => (
           <Link
             href={`/projects/${project.slug}`}
             key={project._id}
@@ -32,7 +60,7 @@ export default async function ProjectSection() {
               {project.name}
             </div>
           </Link>
-        ))}
+        ))} */}
       </div>
     </div>
   );
