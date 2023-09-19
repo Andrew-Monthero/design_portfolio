@@ -7,7 +7,7 @@ const Experience = (props: any) => {
             {props.designation}
           </h2>
 
-          <h3 className='text-[2rem] font-medium text-purple-400'>
+          <h3 className='text-[2rem] font-medium text-white'>
             {props.company}
           </h3>
 
