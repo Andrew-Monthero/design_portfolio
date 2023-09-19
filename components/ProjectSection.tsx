@@ -20,7 +20,7 @@ export default async function ProjectSection() {
           <Image
             src='https://miro.medium.com/v2/resize:fit:1400/format:webp/1*JowOHcWr9tk3oY9lCTKnEw.png'
             alt='Banner_image'
-            width={600}
+            width={900}
             height={0}
             className='object-cover'
           />
@@ -35,11 +35,13 @@ export default async function ProjectSection() {
           <Image
             src='https://miro.medium.com/v2/resize:fit:1400/format:webp/1*JowOHcWr9tk3oY9lCTKnEw.png'
             alt='Banner_image'
-            width={600}
+            width={900}
             height={0}
             className='object-cover'
           />
-          <div className='text-[1.2rem] font-medium p-[1.5rem] '>BuildNest</div>
+          <div className='text-[1.2rem] font-medium p-[1.5rem] '>
+            BuildNest - Real Estate Management App
+          </div>
         </Link>
         {/* {projects.map((project: Project) => (
           <Link
