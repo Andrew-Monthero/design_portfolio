@@ -33,7 +33,7 @@ export default function ProjectSection() {
           className='w-full  hover:scale-105 transition flex flex-col justify-between rounded-2xl overflow-hidden shadow-md'
         >
           <Image
-            src='https://cdn-images-1.medium.com/max/800/1*081-f5sq_TakFppV5VTTIQ.png'
+            src='https://miro.medium.com/v2/resize:fit:720/format:webp/1*081-f5sq_TakFppV5VTTIQ.png'
             alt='Banner_image'
             width={900}
             height={0}
