@@ -7,10 +7,10 @@ export default function AboutMe() {
     <div>
       <div className='mx-[1rem] mt-[8rem] md:mt-[10rem]  md:max-w-screen-lg md:mx-auto grid md:grid-cols-2 grid-cols-1 lg:max-h-full md:gap-[4.8rem] gap-[2.4rem] items-center'>
         <div>
-          <h2 className='leading-normal tracking-normals lg:text-5xl lg:leading-snug  text-purple-500'>
+          <h2 className='leading-normal tracking-normals lg:text-5xl lg:leading-snug  text-gray-900'>
             I am Andrew Monthero, a passionate UI/UX designer based in Mumbai.
           </h2>
-          <p className='mt-[1rem] font-light leading-relaxed tracking-wide text-[1.125rem]'>
+          <p className='mt-[1rem] font-normal leading-relaxed tracking-normal text-[1.125rem]'>
             I believe in creating delightful user experiences that not only look
             amazing but also function flawlessly. Design is my playground, and
             code is my secret sauce to bring those designs to life! I&apos;m
@@ -31,7 +31,7 @@ export default function AboutMe() {
         />
       </div>
       <div className='mx-[1rem] my-[3rem] md:max-w-screen-lg md:mx-auto'>
-        <h2 className=' pb-[1.5rem] text-[2rem] md:text-[3rem] leading-snug tracking-normal  font-medium  text-purple-500'>
+        <h2 className=' pb-[1.5rem] text-[2rem] md:text-[3rem] leading-snug tracking-normal  font-medium  text-gray-900'>
           Experience
         </h2>
         <div className='grid md:grid-cols-2 grid-cols-1 gap-4 md:max-h-screen'>

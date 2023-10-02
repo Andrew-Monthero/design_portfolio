@@ -32,7 +32,7 @@ export default function Navbar() {
           />
         </Link>
         <div className='flex gap-4'>
-          <Link href='/about' className='p-[0.75rem]'>
+          <Link href='/about' className='p-[0.75rem] font-medium'>
             About
           </Link>
         </div>
