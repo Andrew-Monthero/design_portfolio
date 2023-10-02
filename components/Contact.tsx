@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <div className='h-full flex justify-center flex-col mx-[1rem] my-[5rem] md:max-w-screen-lg md:mx-auto'>
-      <p className='text-[2rem] md:text-[3rem] leading-snug tracking-normal  font-medium  text-purple-500'>
+      <p className='text-[2rem] md:text-[3rem] leading-snug tracking-normal  font-medium  text-gray-900'>
         Drop a message 👇🏻
       </p>
       <div className='mt-[1rem]'>
@@ -12,7 +12,7 @@ export default function Contact() {
           andrewmonthero0210@gmail.com
         </a>
       </div>
-      <p className='mt-[5rem] text-[2rem] md:text-[3rem] leading-snug tracking-normal  font-medium  text-purple-500'>
+      <p className='mt-[5rem] text-[2rem] md:text-[3rem] leading-snug tracking-normal  font-medium  text-gray-900'>
         Find me at 🔍
       </p>
       <div className='mt-[1rem] flex flex-row gap-6'>
