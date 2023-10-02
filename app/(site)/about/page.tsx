@@ -7,7 +7,7 @@ export default function AboutMe() {
     <div>
       <div className='mx-[1rem] mt-[8rem] md:mt-[10rem]  md:max-w-screen-lg md:mx-auto grid md:grid-cols-2 grid-cols-1 lg:max-h-full md:gap-[4.8rem] gap-[2.4rem] items-center'>
         <div>
-          <h2 className='leading-normal tracking-normals lg:text-5xl lg:leading-snug  text-gray-900'>
+          <h2 className='leading-normal tracking-normals lg:text-5xl lg:leading-snug font-medium text-gray-900'>
             I am Andrew Monthero, a passionate UI/UX designer based in Mumbai.
           </h2>
           <p className='mt-[1rem] font-normal leading-relaxed tracking-normal text-[1.125rem]'>
